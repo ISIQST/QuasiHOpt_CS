@@ -40,43 +40,44 @@ namespace QuasiHOpt
 		//Do not modify it using the code editor.
 		[System.Diagnostics.DebuggerStepThrough()]private void InitializeComponent()
 		{
-			this.TextBox1 = new System.Windows.Forms.TextBox();
-			this.TextBox1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TextBox1_KeyUp);
-			this.ListBox1 = new System.Windows.Forms.ListBox();
-			this.SuspendLayout();
-			//
-			//TextBox1
-			//
-			this.TextBox1.Anchor = (System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-				| System.Windows.Forms.AnchorStyles.Right);
-			this.TextBox1.Location = new System.Drawing.Point(2, 12);
-			this.TextBox1.Name = "TextBox1";
-			this.TextBox1.Size = new System.Drawing.Size(272, 20);
-			this.TextBox1.TabIndex = 2;
-			//
-			//ListBox1
-			//
-			this.ListBox1.Anchor = (System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-				| System.Windows.Forms.AnchorStyles.Left) 
-				| System.Windows.Forms.AnchorStyles.Right);
-			this.ListBox1.FormattingEnabled = true;
-			this.ListBox1.Location = new System.Drawing.Point(2, 49);
-			this.ListBox1.Name = "ListBox1";
-			this.ListBox1.Size = new System.Drawing.Size(274, 173);
-			this.ListBox1.TabIndex = 3;
-			//
-			//frmSampleStatus
-			//
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6, 13);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 225);
-			this.Controls.Add(this.ListBox1);
-			this.Controls.Add(this.TextBox1);
-			this.Name = "frmSampleStatus";
-			this.Text = "frmSampleStatus";
-			this.ResumeLayout(false);
-			this.PerformLayout();
-			
+            this.TextBox1 = new System.Windows.Forms.TextBox();
+            this.ListBox1 = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // TextBox1
+            // 
+            this.TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TextBox1.Location = new System.Drawing.Point(2, 12);
+            this.TextBox1.Name = "TextBox1";
+            this.TextBox1.Size = new System.Drawing.Size(272, 20);
+            this.TextBox1.TabIndex = 2;
+            this.TextBox1.Text = "qst.ChannelManager.DCChannel.MeasureR(0,10,0)";
+            this.TextBox1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TextBox1_KeyUp);
+            // 
+            // ListBox1
+            // 
+            this.ListBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ListBox1.FormattingEnabled = true;
+            this.ListBox1.Location = new System.Drawing.Point(2, 49);
+            this.ListBox1.Name = "ListBox1";
+            this.ListBox1.Size = new System.Drawing.Size(274, 173);
+            this.ListBox1.TabIndex = 3;
+            // 
+            // frmSampleStatus
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(284, 225);
+            this.Controls.Add(this.ListBox1);
+            this.Controls.Add(this.TextBox1);
+            this.Name = "frmSampleStatus";
+            this.Text = "frmSampleStatus";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 		}
 		internal System.Windows.Forms.TextBox TextBox1;
 		internal System.Windows.Forms.ListBox ListBox1;
